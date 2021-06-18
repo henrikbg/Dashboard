@@ -1,0 +1,16 @@
+C:\Users\henrik\Documents\Code\Dashboard\Dashboard\bin\Debug\netcoreapp3.1\Dashboard.exe
+C:\Users\henrik\Documents\Code\Dashboard\Dashboard\bin\Debug\netcoreapp3.1\Dashboard.deps.json
+C:\Users\henrik\Documents\Code\Dashboard\Dashboard\bin\Debug\netcoreapp3.1\Dashboard.runtimeconfig.json
+C:\Users\henrik\Documents\Code\Dashboard\Dashboard\bin\Debug\netcoreapp3.1\Dashboard.runtimeconfig.dev.json
+C:\Users\henrik\Documents\Code\Dashboard\Dashboard\bin\Debug\netcoreapp3.1\Dashboard.dll
+C:\Users\henrik\Documents\Code\Dashboard\Dashboard\bin\Debug\netcoreapp3.1\Dashboard.pdb
+C:\Users\henrik\Documents\Code\Dashboard\Dashboard\obj\Debug\netcoreapp3.1\Dashboard.csproj.AssemblyReference.cache
+C:\Users\henrik\Documents\Code\Dashboard\Dashboard\obj\Debug\netcoreapp3.1\Dashboard.Form1.resources
+C:\Users\henrik\Documents\Code\Dashboard\Dashboard\obj\Debug\netcoreapp3.1\Dashboard.Properties.Resources.resources
+C:\Users\henrik\Documents\Code\Dashboard\Dashboard\obj\Debug\netcoreapp3.1\Dashboard.csproj.GenerateResource.cache
+C:\Users\henrik\Documents\Code\Dashboard\Dashboard\obj\Debug\netcoreapp3.1\Dashboard.AssemblyInfoInputs.cache
+C:\Users\henrik\Documents\Code\Dashboard\Dashboard\obj\Debug\netcoreapp3.1\Dashboard.AssemblyInfo.cs
+C:\Users\henrik\Documents\Code\Dashboard\Dashboard\obj\Debug\netcoreapp3.1\Dashboard.csproj.CoreCompileInputs.cache
+C:\Users\henrik\Documents\Code\Dashboard\Dashboard\obj\Debug\netcoreapp3.1\Dashboard.dll
+C:\Users\henrik\Documents\Code\Dashboard\Dashboard\obj\Debug\netcoreapp3.1\Dashboard.pdb
+C:\Users\henrik\Documents\Code\Dashboard\Dashboard\obj\Debug\netcoreapp3.1\Dashboard.genruntimeconfig.cache
