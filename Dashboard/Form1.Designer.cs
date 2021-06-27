@@ -31,19 +31,20 @@ namespace Dashboard
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -64,9 +65,10 @@ namespace Dashboard
             // 
             // panel3
             // 
-            this.panel3.Controls.Add(this.label6);
-            this.panel3.Controls.Add(this.label5);
-            this.panel3.Controls.Add(this.label4);
+            this.panel3.Controls.Add(this.button4);
+            this.panel3.Controls.Add(this.button3);
+            this.panel3.Controls.Add(this.button2);
+            this.panel3.Controls.Add(this.button1);
             this.panel3.Controls.Add(this.label3);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel3.Location = new System.Drawing.Point(0, 144);
@@ -74,44 +76,13 @@ namespace Dashboard
             this.panel3.Size = new System.Drawing.Size(186, 433);
             this.panel3.TabIndex = 1;
             // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(60, 96);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(41, 15);
-            this.label6.TabIndex = 1;
-            this.label6.Text = "Profile";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(60, 133);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(49, 15);
-            this.label5.TabIndex = 1;
-            this.label5.Text = "Settings";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(60, 56);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(35, 15);
-            this.label4.TabIndex = 1;
-            this.label4.Text = "Trade";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(59, 19);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(64, 15);
+            this.label3.Size = new System.Drawing.Size(0, 15);
             this.label3.TabIndex = 0;
-            this.label3.Text = "Dashboard";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // panel2
@@ -167,6 +138,28 @@ namespace Dashboard
             this.panel4.Size = new System.Drawing.Size(646, 146);
             this.panel4.TabIndex = 1;
             // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label8.Location = new System.Drawing.Point(29, 71);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(110, 27);
+            this.label8.TabIndex = 1;
+            this.label8.Text = "$1000.00";
+            this.label8.Click += new System.EventHandler(this.label8_Click);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label7.Location = new System.Drawing.Point(29, 33);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(113, 29);
+            this.label7.TabIndex = 0;
+            this.label7.Text = "Portfolio";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
+            // 
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.White;
@@ -183,27 +176,41 @@ namespace Dashboard
             this.panel6.Size = new System.Drawing.Size(270, 146);
             this.panel6.TabIndex = 2;
             // 
-            // label7
+            // button1
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label7.Location = new System.Drawing.Point(29, 33);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(113, 29);
-            this.label7.TabIndex = 0;
-            this.label7.Text = "Portfolio";
-            this.label7.Click += new System.EventHandler(this.label7_Click);
+            this.button1.Location = new System.Drawing.Point(0, 0);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(186, 70);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "Dashboard";
+            this.button1.UseVisualStyleBackColor = true;
             // 
-            // label8
+            // button2
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label8.Location = new System.Drawing.Point(29, 71);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(110, 27);
-            this.label8.TabIndex = 1;
-            this.label8.Text = "$1000.00";
-            this.label8.Click += new System.EventHandler(this.label8_Click);
+            this.button2.Location = new System.Drawing.Point(0, 66);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(186, 68);
+            this.button2.TabIndex = 3;
+            this.button2.Text = "Trade";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(0, 131);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(186, 67);
+            this.button3.TabIndex = 3;
+            this.button3.Text = "Profile";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(0, 195);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(186, 72);
+            this.button4.TabIndex = 4;
+            this.button4.Text = "Settings";
+            this.button4.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -241,14 +248,15 @@ namespace Dashboard
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
     }
 }
 
