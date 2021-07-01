@@ -31,6 +31,10 @@ namespace Dashboard
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
@@ -41,10 +45,9 @@ namespace Dashboard
             this.label7 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -75,6 +78,42 @@ namespace Dashboard
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(186, 433);
             this.panel3.TabIndex = 1;
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(0, 195);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(186, 72);
+            this.button4.TabIndex = 4;
+            this.button4.Text = "Settings";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(0, 131);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(186, 67);
+            this.button3.TabIndex = 3;
+            this.button3.Text = "Profile";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(0, 66);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(186, 68);
+            this.button2.TabIndex = 3;
+            this.button2.Text = "Trade";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(0, 0);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(186, 70);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "Dashboard";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // label3
             // 
@@ -167,6 +206,7 @@ namespace Dashboard
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(268, 146);
             this.panel5.TabIndex = 2;
+            this.panel5.Paint += new System.Windows.Forms.PaintEventHandler(this.panel5_Paint);
             // 
             // panel6
             // 
@@ -176,41 +216,32 @@ namespace Dashboard
             this.panel6.Size = new System.Drawing.Size(270, 146);
             this.panel6.TabIndex = 2;
             // 
-            // button1
+            // button5
             // 
-            this.button1.Location = new System.Drawing.Point(0, 0);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(186, 70);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Dashboard";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button5.Location = new System.Drawing.Point(239, 472);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(86, 33);
+            this.button5.TabIndex = 3;
+            this.button5.Text = "View";
+            this.button5.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // button6
             // 
-            this.button2.Location = new System.Drawing.Point(0, 66);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(186, 68);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "Trade";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button6.Location = new System.Drawing.Point(615, 472);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(86, 33);
+            this.button6.TabIndex = 4;
+            this.button6.Text = "View";
+            this.button6.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // button7
             // 
-            this.button3.Location = new System.Drawing.Point(0, 131);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(186, 67);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "Profile";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(0, 195);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(186, 72);
-            this.button4.TabIndex = 4;
-            this.button4.Text = "Settings";
-            this.button4.UseVisualStyleBackColor = true;
+            this.button7.Location = new System.Drawing.Point(421, 472);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(86, 33);
+            this.button7.TabIndex = 5;
+            this.button7.Text = "Format";
+            this.button7.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -218,6 +249,9 @@ namespace Dashboard
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(249)))), ((int)(((byte)(252)))));
             this.ClientSize = new System.Drawing.Size(951, 577);
+            this.Controls.Add(this.button7);
+            this.Controls.Add(this.button6);
+            this.Controls.Add(this.button5);
             this.Controls.Add(this.panel6);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel4);
@@ -257,6 +291,9 @@ namespace Dashboard
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button7;
     }
 }
 
