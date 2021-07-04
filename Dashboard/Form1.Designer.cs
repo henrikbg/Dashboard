@@ -48,11 +48,19 @@ namespace Dashboard
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel4.SuspendLayout();
+            this.panel5.SuspendLayout();
+            this.panel6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -181,7 +189,7 @@ namespace Dashboard
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label8.Location = new System.Drawing.Point(29, 71);
+            this.label8.Location = new System.Drawing.Point(20, 73);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(110, 27);
             this.label8.TabIndex = 1;
@@ -192,7 +200,7 @@ namespace Dashboard
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label7.Location = new System.Drawing.Point(29, 33);
+            this.label7.Location = new System.Drawing.Point(20, 33);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(113, 29);
             this.label7.TabIndex = 0;
@@ -202,6 +210,8 @@ namespace Dashboard
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.White;
+            this.panel5.Controls.Add(this.pictureBox2);
+            this.panel5.Controls.Add(this.label4);
             this.panel5.Location = new System.Drawing.Point(239, 265);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(268, 146);
@@ -211,6 +221,8 @@ namespace Dashboard
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.Color.White;
+            this.panel6.Controls.Add(this.pictureBox3);
+            this.panel6.Controls.Add(this.label5);
             this.panel6.Location = new System.Drawing.Point(615, 265);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(270, 146);
@@ -243,6 +255,43 @@ namespace Dashboard
             this.button7.Text = "Format";
             this.button7.UseVisualStyleBackColor = true;
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label4.Location = new System.Drawing.Point(20, 25);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(75, 29);
+            this.label4.TabIndex = 2;
+            this.label4.Text = "Chart";
+            this.label4.Click += new System.EventHandler(this.label4_Click_1);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label5.Location = new System.Drawing.Point(21, 25);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(77, 29);
+            this.label5.TabIndex = 6;
+            this.label5.Text = "Trade";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Location = new System.Drawing.Point(20, 57);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(231, 67);
+            this.pictureBox2.TabIndex = 3;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Location = new System.Drawing.Point(21, 57);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(231, 67);
+            this.pictureBox3.TabIndex = 4;
+            this.pictureBox3.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -269,6 +318,12 @@ namespace Dashboard
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
+            this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
+            this.panel6.ResumeLayout(false);
+            this.panel6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -294,6 +349,10 @@ namespace Dashboard
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox3;
     }
 }
 
